@@ -3,7 +3,7 @@
 ## Objective
 To explore and visualize the Iris dataset using Python libraries.
 
-## 📊 Dataset
+##  Dataset
 - **Source** — `sklearn.datasets.load_iris()`
 - **150 samples** · **4 features** · **3 species** (Setosa, Versicolor, Virginica)
 - No missing values
@@ -15,11 +15,11 @@ To explore and visualize the Iris dataset using Python libraries.
 4. **Box plots** — outlier detection per feature
 5. **Correlation heatmap** — feature correlations
 
-## ⚙️ How to Run
+## How to Run
 pip install pandas matplotlib seaborn scikit-learn
 python iris_eda.py
 
-## 🛠️ Libraries Used
+## Libraries Used
 `pandas` · `matplotlib` · `seaborn` · `scikit-learn`
 
 **Internship Data Science Project — Task 1**
