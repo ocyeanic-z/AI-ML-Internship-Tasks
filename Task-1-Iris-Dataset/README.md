@@ -1,20 +1,25 @@
-Task 1: Iris Dataset Exploration
+## Task 1: Iris Dataset Exploration
 
-Objective
+## Objective
 To explore and visualize the Iris dataset using Python libraries.
 
-Steps Performed
-- Loaded dataset using pandas
-- Checked dataset structure using `.info()` and `.describe()`
-- Visualized data using:
-  - Scatter plots
-  - Histograms
-  - Box plots
+## 📊 Dataset
+- **Source** — `sklearn.datasets.load_iris()`
+- **150 samples** · **4 features** · **3 species** (Setosa, Versicolor, Virginica)
+- No missing values
 
-Libraries Used
-- pandas
-- seaborn
-- matplotlib
+## What I Did
+1. Loaded and inspected the dataset using `.head()`, `.info()`, `.describe()`
+2. **Scatter plots** — relationships between sepal & petal dimensions
+3. **Histograms** — value distributions per species
+4. **Box plots** — outlier detection per feature
+5. **Correlation heatmap** — feature correlations
 
-Outcome
-Gained understanding of feature relationships and data distribution.
+## ⚙️ How to Run
+pip install pandas matplotlib seaborn scikit-learn
+python iris_eda.py
+
+## 🛠️ Libraries Used
+`pandas` · `matplotlib` · `seaborn` · `scikit-learn`
+
+**Internship Data Science Project — Task 1**
